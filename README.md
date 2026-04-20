@@ -26,3 +26,6 @@ solely for analytical demonstration.
 ## Notes
 - This project emphasizes **reasoning and analysis**, not automation
 - The goal is to reduce noise and false escalations by grounding discussions in baselines
+
+## Example dashboard output
+![Baseline imaging dashboard screenshot](/docs/dashboard_screenshot.png)
