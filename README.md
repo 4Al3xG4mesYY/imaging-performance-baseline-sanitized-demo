@@ -17,6 +17,15 @@ solely for analytical demonstration.
 
 ---
 
+## STIG Context (Supporting Evidence)
+This project references **Windows 10 STIG control WN10-AU-000005 (Audit Account Logon – Credential Validation Failures)** to explain the security relevance of baseline-driven analysis.
+
+The baseline establishes expected post-imaging system behavior and consistent execution timelines, which supports investigation readiness by helping analysts interpret credential-related audit events accurately and distinguish abnormal activity from expected operational variance.
+
+This analysis does not validate audit policy configuration directly and should be considered **supporting behavioral evidence**, not a compliance attestation.
+
+---
+
 ## Methodology & Scope
 This analysis establishes a baseline of normal imaging performance using a deliberately scoped dataset consisting only of records I personally executed and timestamped. Data was normalized into structured categories and evaluated against defined criteria to distinguish expected operational variance from true anomalies. Results are intended to support planning, workload allocation, and pre-escalation decision-making rather than real-time alerting. Findings should not be extrapolated beyond the defined dataset or time period without re-validation. Records from other operators were intentionally excluded due to incomplete timestamp attribution to preserve data integrity and analytical defensibility.
 
