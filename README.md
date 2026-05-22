@@ -26,6 +26,14 @@ This analysis does not validate audit policy configuration directly and should b
 
 ---
 
+## Dataset Evolution
+
+As the operational workflow evolved, tracking and return tracking fields were introduced to support shipment traceability and system lifecycle visibility. These fields are treated as metadata and are not used in baseline performance calculations.
+
+This reflects real-world conditions where datasets evolve over time while maintaining analytical integrity.
+
+---
+
 ## Methodology & Scope
 This analysis establishes a baseline of normal imaging performance using a deliberately scoped dataset consisting only of records I personally executed and timestamped. Data was normalized into structured categories and evaluated against defined criteria to distinguish expected operational variance from true anomalies. Results are intended to support planning, workload allocation, and pre-escalation decision-making rather than real-time alerting. Findings should not be extrapolated beyond the defined dataset or time period without re-validation. Records from other operators were intentionally excluded due to incomplete timestamp attribution to preserve data integrity and analytical defensibility.
 
